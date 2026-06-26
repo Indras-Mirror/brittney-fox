@@ -37,9 +37,9 @@ body::before {
   content: '';
   position: fixed; inset: 0; z-index: 0; pointer-events: none;
   background:
-    radial-gradient(ellipse 80% 60% at 50% 30%, rgba(120,20,20,0.06) 0%, transparent 70%),
-    radial-gradient(ellipse 60% 50% at 50% 70%, rgba(80,10,10,0.04) 0%, transparent 60%),
-    url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+    radial-gradient(ellipse 100% 80% at 50% 30%, rgba(100,15,15,0.04) 0%, rgba(60,10,10,0.02) 40%, transparent 80%),
+    radial-gradient(ellipse 80% 60% at 50% 80%, rgba(70,10,10,0.025) 0%, rgba(40,8,8,0.01) 50%, transparent 100%),
+    url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
   background-size: 100% 100%, 100% 100%, 256px 256px;
 }
 
@@ -112,8 +112,7 @@ h3 { font-size: 1.4rem; font-weight: 500; }
 .hero-overlay {
   position: absolute; inset: 0;
   background:
-    radial-gradient(ellipse at center, rgba(140,20,20,0.1) 0%, transparent 60%),
-    radial-gradient(ellipse 60% 40% at 50% 55%, rgba(100,10,10,0.06) 0%, transparent 50%);
+    radial-gradient(ellipse 120% 80% at 50% 40%, rgba(100,15,15,0.07) 0%, rgba(50,8,8,0.02) 50%, transparent 90%);
 }
 .hero-content {
   position: relative; text-align: center; max-width: 700px; margin: 0 auto;
@@ -233,7 +232,7 @@ h3 { font-size: 1.4rem; font-weight: 500; }
 
 /* CTA */
 .cta-section {
-  background: radial-gradient(ellipse at center, rgba(140,20,20,0.12) 0%, transparent 60%);
+  background: radial-gradient(ellipse 100% 70% at 50% 50%, rgba(90,12,12,0.06) 0%, rgba(40,8,8,0.015) 45%, transparent 85%);
   text-align: center; padding: 100px 24px;
 }
 .cta-content { max-width: 600px; margin: 0 auto; }
