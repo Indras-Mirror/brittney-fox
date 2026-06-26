@@ -78,9 +78,7 @@ h3 { font-size: 1.4rem; font-weight: 500; }
 .logo {
   font-family: var(--font-heading); font-size: 1.5rem; font-weight: 600;
   color: var(--accent); text-decoration: none; letter-spacing: 0.04em;
-  display: flex; align-items: center; gap: 10px;
 }
-.logo-monogram { width: 36px; height: 36px; flex-shrink: 0; }
 .logo span { color: var(--text-muted); font-size: 0.7rem; font-family: var(--font-body); display: block; letter-spacing: 0.1em; }
 .nav-menu { display: flex; list-style: none; gap: 32px; align-items: center; }
 .nav-menu a {
@@ -126,9 +124,6 @@ h3 { font-size: 1.4rem; font-weight: 500; }
 .hero-content .location {
   font-size: 0.9rem; color: var(--accent); font-family: var(--font-body);
   letter-spacing: 0.12em; text-transform: uppercase;
-}
-.hero-monogram {
-  width: 80px; height: 80px; margin-bottom: 20px; opacity: 0.85;
 }
 .hero-image {
   width: 520px; height: 520px; border-radius: 50%; object-fit: cover;
@@ -372,7 +367,6 @@ h3 { font-size: 1.4rem; font-weight: 500; }
   .about-image img { max-height: 350px; object-fit: cover; width: 100%; }
   .gallery-item { aspect-ratio: 3/4; }
   .hero-image { width: 240px; height: 240px; }
-  .hero-monogram { width: 56px; height: 56px; margin-bottom: 12px; }
   .hero-buttons .btn { width: 100%; text-align: center; padding: 14px 20px; font-size: 0.9rem; }
   .contact-item { padding: 8px 0; }
   .contact-item a { font-size: 1rem; }
